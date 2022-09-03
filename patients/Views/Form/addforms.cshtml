@@ -6,11 +6,6 @@
 
 
 
-
-
-
-
-
 <div class="row ">
 
     <div class="col-md-6 ">
@@ -24,7 +19,7 @@
                             <label style="font-weight:bold;">Form 1</label>
                         </div>
                         <div class="col-md-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 1">
                         </div>
                     </div>
                     <br>
@@ -33,7 +28,7 @@
                             <label style="font-weight:bold;">Form 2</label>
                         </div>
                         <div class="col-md-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 2">
                         </div>
                     </div>
                     <br>
@@ -42,7 +37,7 @@
                             <label style="font-weight:bold;">Form 3</label>
                         </div>
                         <div class="col-md-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 3">
                         </div>
                     </div>
                     <br>
@@ -51,7 +46,7 @@
                             <label style="font-weight:bold;">Form 4</label>
                         </div>
                         <div class="col-md-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 4">
                         </div>
                     </div>
                     <br>
@@ -60,7 +55,7 @@
                             <label style="font-weight:bold;">Form 5</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 5">
                         </div>
                     </div>
                     <br>
@@ -69,7 +64,7 @@
                             <label style="font-weight:bold;">Form 6</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 6">
                         </div>
                     </div>
                     <br>
@@ -78,7 +73,7 @@
                             <label style="font-weight:bold;">Form 7</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 7">
                         </div>
                     </div>
                     <br>
@@ -87,7 +82,7 @@
                             <label style="font-weight:bold;">Form 8</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 8">
                         </div>
                     </div>
                     <br>
@@ -96,7 +91,7 @@
                             <label style="font-weight:bold;">Form 9</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 9">
                         </div>
                     </div>
                     <br>
@@ -105,7 +100,7 @@
                             <label style="font-weight:bold;">Form 10</label>
                         </div>
                         <div class="col-6">
-                            <input class="form-check-input" type="checkbox">
+                            <input class="form-check-input" type="checkbox" value="Form 10">
                         </div>
                     </div>
                 </div>
@@ -124,17 +119,38 @@
 
                 <div class="col-12">
 
-                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                        <option selected="">Open this select menu</option>
-                        <option value="1">One</option>
+                    <select class="form-select" id="floatingSelectGrid"  asp-items=@ViewBag.Select>
+                        
                     </select>
+                </div>
+                <div>
+
+                    <div class="col-md-6 " style="margin-top: 20px;">
+                        
+                        <div class="overflow-auto"
+                            style="text-align:center;background-color: #c8d3d329 ;height:250px; width:350px;">
+                            <h4 id="Lang"></h4>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <div style="margin-left:725px; margin-top:-35px;" class=" col-6">
+    <div style="margin-left:950px; " class=" col-6">
         <button class="btn btn-success " style="width:200px;">Save</button>
     </div>
 
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('input[type="checkbox"]').click(function () {
+            if ($(this).prop("checked") == true) {
+                var q = document.getElementById("Lang").innerText
+                document.getElementById("Lang").innerText = q + " \n " +  $(this).val()
+            }
+        });
+    });
+</script>

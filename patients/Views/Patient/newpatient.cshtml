@@ -1,44 +1,40 @@
 @model VmPatient
-
-
 <style>
-    .verticalLine {
+
+    .verticalLine 
+    {
         border-left: thick dashed #d7d7d77a;
     }
-
-    .testTest{
+    .testTest
+    {
         margin-top:0px;
     }
 </style>
-
-
-
-
-
 <br>
 
 <div id="smartwizard-default-success" class="wizard wizard-success mb-4 sw sw-theme-default sw-justified">
     <ul class="nav">
-        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-1">1<br><small>Step 1
-                </small></a>
+        <li class="nav-item">
+            <a class="nav-link inactive done" href="#default-success-step-1">
+            1<br>
+        <small>Step 1</small></a>
         </li>
-        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-2">2<br><small>Step 2
-                </small></a>
+        <li class="nav-item">
+            <a class="nav-link inactive done" href="#default-success-step-2">
+                2<br>
+        <small>Step 2</small></a>
         </li>
-        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-3">3<br><small>Step 3
-                </small></a>
+        <li class="nav-item">
+            <a class="nav-link inactive done" href="#default-success-step-3">3<br>
+        <small>Step 3</small></a>
         </li>
-
     </ul>
-
+<form method="post" action="/Patient/addPatient">
     <div class="tab-content" style="height: 62.5px;">
         <div id="default-success-step-1" class="tab-pane" role="tabpanel" style="display: none;">
-            <h2 style="text-align:center ;"> Please add your patient information</h2>
+            <h2 style="text-align:center ;">Please Add Your Patient Information</h2>
             <br>
-
-
-
-            <form method="post" action="/Patient/addPatient">
+            
                 <div class="row">
                     <div class="mb-3 col-4">
 
@@ -163,8 +159,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="verticalLine col-md-6">
                     <div class="col-md-6 " style="margin-left: 100px;">
                         <h2 style="text-align:center ;">Selected Form</h2>
@@ -174,7 +168,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <div id="default-success-step-3" class="tab-pane" role="tabpanel" style="display: none;">
@@ -208,10 +201,12 @@
 
         </div>
     </div>
-    <div class="toolbar toolbar-bottom" role="toolbar" style="text-align: right;"><button class="btn sw-btn-prev"
-            type="button">Previous</button><button class="btn sw-btn-next disabled" type="button">Next</button>
+    <div class="toolbar toolbar-bottom" role="toolbar" style="text-align:right;">
+        <button class="btn sw-btn-prev" type="button">Previous</button>
+        <button class="btn sw-btn-next disabled" type="button">Next</button>
     </div>
 </div>
+
 <script> 
     $(document).ready(function()
     {

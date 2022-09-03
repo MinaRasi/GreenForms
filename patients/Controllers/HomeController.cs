@@ -33,11 +33,7 @@ public class HomeController : Controller
    }
 
   
-   public IActionResult addforms()
-   {
-     menu.title=" Add Form";
-     return View();
-   }
+
    public IActionResult adduser()
    {
      menu.title=" Add user";
