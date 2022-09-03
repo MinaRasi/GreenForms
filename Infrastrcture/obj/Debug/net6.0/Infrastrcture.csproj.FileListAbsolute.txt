@@ -1,0 +1,51 @@
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.deps.json
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.runtimeconfig.json
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.dll
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.pdb
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\core.dll
+C:\Users\mina\project\Infrastrcture\bin\Debug\net6.0\core.pdb
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.AssemblyReference.cache
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfoInputs.cache
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfo.cs
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CoreCompileInputs.cache
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CopyComplete
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.dll
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\refint\Infrastrcture.dll
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.pdb
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.genruntimeconfig.cache
+C:\Users\mina\project\Infrastrcture\obj\Debug\net6.0\ref\Infrastrcture.dll
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.deps.json
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.runtimeconfig.json
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.dll
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.pdb
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\core.dll
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\bin\Debug\net6.0\core.pdb
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.AssemblyReference.cache
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfoInputs.cache
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfo.cs
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CoreCompileInputs.cache
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CopyComplete
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.dll
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\refint\Infrastrcture.dll
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.pdb
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.genruntimeconfig.cache
+C:\Users\Milky_Way\Desktop\project\Infrastrcture\obj\Debug\net6.0\ref\Infrastrcture.dll
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.deps.json
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.runtimeconfig.json
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.dll
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\Infrastrcture.pdb
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\core.dll
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\bin\Debug\net6.0\core.pdb
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.AssemblyReference.cache
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfoInputs.cache
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.AssemblyInfo.cs
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CoreCompileInputs.cache
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.csproj.CopyComplete
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.dll
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\refint\Infrastrcture.dll
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.pdb
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\Infrastrcture.genruntimeconfig.cache
+C:\Users\mina\OneDrive\Desktop\New folder (2)\project\Infrastrcture\obj\Debug\net6.0\ref\Infrastrcture.dll

@@ -1,0 +1,73 @@
+<style>
+    .th {
+        background-color: #b3d1f05e;
+
+
+    }
+
+    table {
+        text-align: center;
+        border-radius: 15px;
+        width: 100%;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="table shadow">
+    <tr class="th">
+        <th>Number</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Gender</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Password</th>
+        <th>Email </th>
+        <th>Processes</th>
+    </tr>
+
+    @if (ViewBag.doctor1 != null)
+    {  
+        int r=1;
+        foreach (var item in ViewBag.doctor1)
+        {
+            <tr>
+                <td>@r</td>
+                <td>@item.Firstname</td>
+                <td>@item.Lastname</td>
+                <td>@item.Gender</td>
+                <td>@item.State</td>
+                <td>@item.City</td>
+                <td><input type="password" value="@item.Password" style="border:1px solid white;text-align: center;"></td>
+                <td>@item.Email</td>
+
+                <td>
+                    <div class="row">
+                        <div class="col-6">
+                            <a class="btn m-1 btn-success col-4" href="/doctor/editdoctor/@item.Id" style="width:40px ;"><i class="fas fa-pen"></i></a>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn m-1 btn-success col-4" href="/doctor/deldoctor/@item.Id" onclick="return confirm('Are you sure?')"  style="width:40px ;"><i class="fas fa-trash"></i></a>
+                        </div>
+
+                    </div>
+                </td>
+            </tr>
+            r++;
+        }
+    }
+
+   
+</table>
+</div>

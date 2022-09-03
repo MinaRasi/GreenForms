@@ -1,0 +1,206 @@
+@model VmRequestForm
+<style>
+    .note {
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .form {
+        background-color: #b3d1f05e;
+        height: 150px;
+        width: 700px;
+        margin-left: 215px;
+        border: dotted #60cad5 1px;
+        border-radius: 15px;
+
+    }
+
+    #f {
+        border: dotted #60cad5 1px;
+        width: 700px;
+        margin-left: 215px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    #upload {
+        display: none
+    }
+</style>
+
+@if (TempData["msg"] != null)
+{
+    <div class="row" style="height:74px ; width:435px;border-radius:8px;background-color:#bff2ce;">
+
+        <div class="col-3">
+            <i style="color:#11a211;" class="bi bi-check-circle-fill"></i>
+        </div>
+        <div class="col-6">
+            <h3 style="margin-left:-80px;margin-top:3px; color: #11a211;">@TempData["msg"]</h3>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h6 style="margin-left:30px; margin-bottom: 18px; color: #11a211;">The Upload Was Successful </h6>
+            </div>
+        </div>
+
+
+    </div>
+}
+
+@if (TempData["error"] != null)
+{
+    <div class="row" style="height:74px ; width:435px;border-radius:8px;background-color: #FFE7D9;">
+
+        <div class="col-3">
+            <i style="color:#f95050;" class="bi bi-exclamation-circle-fill"></i>
+        </div>
+        <div class="col-6">
+            <h3 style="margin-left:-80px;margin-top:3px; color:#f95050;">@TempData["error"]</h3>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <h6 style="margin-left:30px; margin-bottom: 18px; color: #f95050;">Please select an form  </h6>
+
+
+            </div>
+        </div>
+
+
+    </div>
+}
+<div class="note">
+
+    <h1>Please upload your Green Form</h1>
+</div>
+<br>
+<form action="/request/addform/" method="post" enctype="multipart/form-data">
+    <div class="form">
+        <img style="margin-left:80px;" src="/img/Upload.png" height="150px" width="150px" alt="">
+        <div style="margin-left:230px; margin-top:-75px;">
+            <h4>Select files</h4>
+            <h6>Drop files here or click 
+                <input type="file" asp-for="Urlupload" style="display:none;" > 
+                <label for="Urlupload" style="color: #4df02d;"  > 
+                     Click 
+                     </label>
+                     thorough your machine
+                   </h6>
+        </div>
+    </div>
+
+    <div id="f" class="row" style="margin-top:5px ;">
+        <div class="col-6">
+            <br>
+            <h2>Choice primary lang</h2>
+            
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Persian" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Persian</label>
+            </div>
+             <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Turkish" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Turkish</label>
+            </div>
+
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Arabic" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Arabic</label>
+            </div>
+             <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="French" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">French</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Italian" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Italian</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Russian" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Russian</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Chinese" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Chinese</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Japanese" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Japanese</label>
+            </div>
+             <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="Portuguese" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Portuguese</label>
+            </div>
+             <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input radio" value="German" asp-for="PrimaryLang">
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">German</label>
+            </div>
+           
+
+        </div>
+        <input type="text" asp-for="Lang" style="display: none">
+        <div class="col-6">
+            <br>
+
+            <h2>Choice translate lang</h2>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Farsi" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Persian</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Spanish" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Spanish</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Arabic" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Arabic</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Russian" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Russian</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="German" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">German</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Portuguese" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Portuguese</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Italian" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Italian</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="French" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">French</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Chinese" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Chinese</label>
+            </div>
+            <div style="margin-right:190px;">
+                <input type="checkbox" class="form-check-input"  value="Turkish" >
+                <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Turkish</label>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <div style="text-align: center; margin-top: 5px;">
+        <button style="width:120px;" class="btn btn-success" type="Submit"> Next <span>-></span></button>
+    </div>
+</form>
+
+
+<script> 
+    $(document).ready(function(){
+        $('input[type="checkbox"]').click(function(){
+            if($(this).prop("checked") == true){
+                var q=document.getElementById("Lang").value
+                document.getElementById("Lang").value=q+","+$(this).val()
+            }
+        });
+    });
+</script>

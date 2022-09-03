@@ -1,0 +1,129 @@
+@model VmDoctor
+
+
+
+<br>
+<br>
+
+<div style="text-align:left; margin-left:200px ;">
+    <h3>Let’s edit a doctor</h3>
+</div>
+
+<form action="/doctor/updatedoctor" method="post">
+
+    <div style="margin-left: 200px;margin-right: 200px;">
+        <br>
+        <input type="text" asp-for="Id" style="display: none;">
+        <div class="row">
+            <div class="col-6">
+
+                <input class="form-control" placeholder="First name *" asp-for=" Firstname ">
+
+            </div>
+            <div class="col-6">
+                <input class="form-control" placeholder="Last name *" asp-for="Lastname">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <select class="form-select" aria-placeholder="States *" asp-for="State">
+                    <option value="Alabama"> Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona"> Arizona</option>
+                    <option value="Arkansas"> Arkansas</option>
+                    <option value="California"> California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut"> Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii"> Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas"> Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana"> Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan"> Michigan</option>
+                    <option value="Minnesota"> Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina"> North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio"> Ohio</option>
+                    <option value="Oklahoma"> Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <select class="form-select" aria-placeholder="Gender" asp-for="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <input class="form-control" placeholder="City" asp-for="City">
+            </div>
+            <div class="col-6">
+                <input class="form-control" placeholder="Street" asp-for="Street">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <input class="form-control" type="email" placeholder="Email address *" asp-for="Email">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <input class="form-control" type="Number" placeholder="Phone" asp-for="Phone">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <input class="form-control" type="text" placeholder="This is my password" asp-for="Password">
+            </div>
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6" style="margin-left:250px ;">
+                <button type="submit" class="btn btn-success" style="width:200px;">Update <span>+</span></button>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</form>

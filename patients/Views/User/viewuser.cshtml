@@ -1,0 +1,121 @@
+<style>
+    .th {
+        background-color: #b3d1f05e;
+
+
+    }
+
+    table {
+        text-align: center;
+        border-radius: 15px;
+        width: 100%;
+    }
+</style>
+
+
+
+
+
+
+
+<table class="table shadow">
+     
+    <tr class="th">
+        <th>Number</th>
+        <th>Firstname</th>
+        <th>Middlename</th>
+        <th>Lastname</th>
+        <th>Nationalcode</th>
+        <th>Date of birth</th>
+        <th>Select device</th>
+        <th>Processes</th>
+    </tr>
+    
+
+     
+    
+    @if (ViewBag.userlist!=null)
+    {
+       int i=1; 
+       @foreach (var item in ViewBag.userlist)
+    {    
+        <tr>
+        <td>@i</td>
+        <td>@item.FirstName</td>
+        <td>@item.MiddleName</td>
+        <td>@item.LastName</td>
+        <td>@item.NationalCode</td>
+        <td>@item.Date</td>
+        <td>
+            <select class="form-control">
+                <option value="">@item.Question</option>
+                @* <option value="">Device Two</option>
+                <option value="">Device Three</option> *@
+            </select>
+
+        </td>
+        <td>
+            <div class="row">
+                <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="/user/update/@item.Id" style="width:40px ;"><i class="fas fa-pen"></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="/user/del/@item.Id" onclick="return confirm('Are you sure?')" style="width:40px;"><i class="fas fa-trash"></i></a>
+                </div>
+                @if (item.Active==true)
+                {
+                   <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="/user/active/@item.Id" style="width:40px ;"><i class="fas fa-lock"></i></a>
+                </div> 
+                }
+                else if(item.Active==false)
+    
+                {
+                  <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="/user/active/@item.Id" style="width:40px ;"><i class="fas fa-unlock"></i></a>
+                </div>  
+                }
+                
+            </div>
+        </td>
+    </tr>
+    i++;
+    }
+        
+    }
+
+    
+    @* <tr>
+        <td>2</td>
+        <td>rez</td>
+        <td>hesh</td>
+        <td>ytre</td>
+        <td>0098</td>
+        <td>1989/12/08</td>
+        <td>
+            <select class="form-control">
+                <option value="">Device One</option>
+                <option value="">Device Two</option>
+                <option value="">Device Three</option>
+            </select>
+
+        </td>
+        <td>
+            <div class="row">
+                <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="#" style="width:40px ;"><i class="fas fa-pen"></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="#" style="width:40px ;"><i class="fas fa-trash"></i></a>
+                </div>
+                <div class="col-4">
+                    <a class="btn m-1 btn-success col-4" href="#" style="width:40px ;"><i class="fas fa-lock"></i></a>
+                </div>
+
+
+
+            </div>
+        </td>
+    </tr> *@
+</table>
+</div>

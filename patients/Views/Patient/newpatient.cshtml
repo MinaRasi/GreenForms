@@ -1,0 +1,226 @@
+@model VmPatient
+
+
+<style>
+    .verticalLine {
+        border-left: thick dashed #d7d7d77a;
+    }
+
+    .testTest{
+        margin-top:0px;
+    }
+</style>
+
+
+
+
+
+<br>
+
+<div id="smartwizard-default-success" class="wizard wizard-success mb-4 sw sw-theme-default sw-justified">
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-1">1<br><small>Step 1
+                </small></a>
+        </li>
+        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-2">2<br><small>Step 2
+                </small></a>
+        </li>
+        <li class="nav-item"><a class="nav-link inactive done" href="#default-success-step-3">3<br><small>Step 3
+                </small></a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content" style="height: 62.5px;">
+        <div id="default-success-step-1" class="tab-pane" role="tabpanel" style="display: none;">
+            <h2 style="text-align:center ;"> Please add your patient information</h2>
+            <br>
+
+
+
+            <form method="post" action="/Patient/addPatient">
+                <div class="row">
+                    <div class="mb-3 col-4">
+
+                        <input type="text" class="form-control" placeholder="Name *" asp-for="Name" required>
+                    </div>
+                    <div class="mb-3 col-4">
+
+                        <input type="text" class="form-control" placeholder="Middle Name " asp-for="MiddleName" required>
+                    </div>
+                    <div class="mb-3 col-4">
+
+                        <input type="text" class="form-control" placeholder="Last Name *" asp-for="LastName" required>
+                    </div>
+                </div>
+                <div>
+
+                    <input type="text" class="form-control" placeholder="Patient ID *" asp-for="PatientID" required>
+                </div>
+                 <div>
+                     <button class="btn btn-success" type="submit">Save</button>
+                 </div>
+            </form>
+
+        </div>
+        <div id="default-success-step-2" class="tab-pane" role="tabpanel" style="display: none;">
+            <div class="row">
+                <div class="col-6">
+                    <h2 style="text-align:center ;">John Doe forms</h2>
+                    <div class="overflow-auto" style="height:350px; width:250px;margin-left:140px;">
+                        <div style="background-color:#c8d3d329 ;text-align: center; " class="p-2">
+                            <h4>Dr Jahn Doe</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label style="font-weight:bold;">Form 1</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr Jahn Doe__Form 1">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label style="font-weight:bold;">Form 2</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr Jahn Doe__Form 2">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label style="font-weight:bold;">Form 3</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr Jahn Doe__Form 3">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label style="font-weight:bold;">Form 4</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr Jahn Doe__Form 4">
+                                </div>
+                            </div>
+                            <br>
+                            <h4>Dr.Smith Doe</h4>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 1</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 1">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 2</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 2">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 3</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 3">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 4</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 4">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 5</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 5">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label style="font-weight:bold;">Form 6</label>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-check-input" type="checkbox" value="Dr.Smith Doe__Form 6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="verticalLine col-md-6">
+                    <div class="col-md-6 " style="margin-left: 100px;">
+                        <h2 style="text-align:center ;">Selected Form</h2>
+                        <br>
+                        <div class="overflow-auto" style="text-align:center;background-color: #c8d3d329 ;height:350px; width:350px;margin-left:140px;" >
+                        <h3  id="Lang" ></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="default-success-step-3" class="tab-pane" role="tabpanel" style="display: none;">
+            <div style="height:50%;width:50%;margin-left:280px ;" >
+
+                <div class="row" style="margin-left:200px;">
+                    <div class="col-4">
+                        <h3>Device 1</h3>
+                    </div>
+                    <div class="col-8">
+                        <input type="checkbox" class="form-check-input" id="">
+                    </div>
+                </div>
+                <div class="row" style="margin-left:200px;">
+                    <div class="col-4">
+                        <h3>Device 2</h3>
+                    </div>
+                    <div class="col-8">
+                        <input type="checkbox" class="form-check-input" id="">
+                    </div>
+                </div>
+                <div class="row" style="margin-left:200px;">
+                    <div class="col-4">
+                        <h3>Device 3</h3>
+                    </div>
+                    <div class="col-8">
+                        <input type="checkbox" class="form-check-input" id="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="toolbar toolbar-bottom" role="toolbar" style="text-align: right;"><button class="btn sw-btn-prev"
+            type="button">Previous</button><button class="btn sw-btn-next disabled" type="button">Next</button>
+    </div>
+</div>
+<script> 
+    $(document).ready(function()
+    {
+        $('input[type="checkbox"]').click(function(){
+            if($(this).prop("checked") == true){
+                var q=document.getElementById("Lang").innerText
+                document.getElementById("Lang").innerText= q +" \n "+" \n "+$(this).val()
+            }
+        });
+    });
+</script>
+

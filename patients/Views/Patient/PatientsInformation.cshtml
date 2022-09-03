@@ -1,0 +1,90 @@
+
+<style>
+ .th {
+        background-color: #b3d1f05e;
+        
+
+    }
+
+    table {
+        text-align: center;
+        border-radius: 15px;
+         width:100%;
+    }
+    
+</style>
+
+
+
+
+<div>
+
+
+
+
+    <div class="card-body demo-vertical-spacing-sm button-dropdown-input-group-demo">
+        <div class="row">
+            <div class="col-4">
+
+                <div class="input-group shadow" style="margin-left:380px ;">
+                    <button type="button" class="btn btn-success dropdown-toggle"  data-bs-toggle="dropdown" 
+                        aria-expanded="false">All</button>
+                    <div class="dropdown-menu" style="">
+                        <a class="dropdown-item" href="javascript:void(0)">Patient Name</a>
+                        <a class="dropdown-item" href="javascript:void(0)"> Refrence Number</a>
+                        <a class="dropdown-item" href="javascript:void(0)">telephone</a>
+                        <a class="dropdown-item" href="javascript:void(0)">Doctor</a>
+                    </div>
+                    <input  type="text" class="form-control">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div>
+    <div class="row">
+
+        <div class="col-6">
+            <h3>Total Search Results(1)</h3>
+        </div>
+       
+    </div>
+
+    <table class="table shadow">
+        <tr class="th">
+            <th>Ref No.</th>
+            <th>Patient Name</th>
+            <th>Telephone</th>
+            <th>Doctor</th>
+            <th>View Patient</th>
+        </tr>
+    @* @if (ViewBag.shopat!=null)
+    {
+        int i=1;
+        @foreach (var item in ViewBag.shopat)
+        { *@
+              <tr>
+            <th>1</th>
+            <th>Lorem ipsum nihil</th>
+            <th>0665484</th>
+            <th>jhon</th>
+            <th> 
+                 <a href=""><img src="/img/eye.png" alt="" style="margin-top: -10px;"></a>
+            </th>
+                
+           
+        </tr>
+        @* i++;
+        }
+    }
+       *@
+         
+    </table>
+</div>
+
+

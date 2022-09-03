@@ -1,0 +1,163 @@
+﻿<style>
+    .col-4 {
+        height: 175px;
+        border-radius: 20px;
+        background-color: white;
+
+    }
+
+    .th {
+        background-color: #b3d1f05e;
+        border-radius: 15px;
+
+    }
+
+    table {
+        text-align: center;
+        border-radius: 15px;
+        width: 1186px;
+
+    }
+</style>
+
+
+
+
+
+
+
+
+<div class="row flex-nowrap">
+
+    <div class="col-4 m-2 shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+
+            <div class="col-6">
+                <a class="btn btn-outline-success" href="/user/adduser">Add User +</a>
+            </div>
+
+            <div class="col-6" style="direction: rtl">
+                <a href="/user/viewuser">View All</a>
+            </div>
+
+        </div>
+        <br>
+        <div><span>Total number of <a href="">users</a></span></div>
+        <div class="row">
+
+            <div class="col-6" style="margin-top:15px ;">
+                <span>
+                    <h1>@ViewBag.UserCount</h1>
+                </span>
+            </div>
+
+            <div class="col-6"> <img style="margin-top:-25px; margin-left:50px ;" src="/img/1.png" alt=""></div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="col-4 m-2 shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+
+            <div class="col-6">
+                <a class="btn btn-outline-success" href="/doctor/adddoctor">Add Doctors +</a>
+            </div>
+
+            <div class="col-6" style="direction: rtl">
+                <a href="/doctor/viewdoctor">View All</a>
+            </div>
+
+        </div>
+        <br>
+        <div><span>Total number of <a href="">doctors</a></span></div>
+        <div class="row">
+
+            <div style="margin-top:15px ;" class="col-6">
+                <span>
+                    <h1>@ViewBag.DoctorCount</h1>
+                </span>
+            </div>
+
+            <div class="col-6"> <img style="margin-top:-35px; margin-left:40px ;" src="/img/2.png" alt=""></div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="col-4 m-2 shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+
+            <div class="col-6">
+                <a class="btn btn-outline-success" href="/home/addquestions">Add Questions +</a>
+            </div>
+
+            <div class="col-6" style="direction: rtl">
+                <a href="/home/viewquestions">View All</a>
+            </div>
+
+        </div>
+        <br>
+        <div><span>Total number of <a href="">questions</a></span></div>
+        <div class="row">
+
+            <div style="margin-top:15px ;" class="col-6">
+                <span>
+                    <h1>70</h1>
+                </span>
+            </div>
+
+            <div class="col-6"> <img style="margin-top:-30px; margin-left:65px ;" src="/img/3.png" alt=""></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div>
+
+    </div>
+
+
+
+
+</div>
+
+<div>
+    <div class="row">
+
+        <div class="col-6">
+            <h3>Latest Questions(5)</h3>
+        </div>
+        <div style="direction: rtl; margin-top:5px;" class="col-6"><a href="">View All</a></div>
+    </div>
+
+    <table class="table shadow">
+        <tr class="th">
+            <th>Number</th>
+            <th>Name</th>
+            <th>Base Language</th>
+            <th>Total Number Of Questions</th>
+            <th>View Questions</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Lorem ipsum nihil</th>
+            <th>
+                <img src="/img/flag.png" alt="">
+            </th>
+            <th>25</th>
+            <th>
+                <a href=""><img src="/img/eye.png" alt="" style="margin-top:-10px ;"></a>
+            </th>
+        </tr>
+    </table>
+</div>

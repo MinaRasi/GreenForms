@@ -1,0 +1,116 @@
+@model VmOffice
+
+
+<style>
+	.card-body {
+		margin-right: -265px;
+		margin-left: 280px;
+	}
+</style>
+
+
+
+
+
+<div style="text-align: center;">
+	<h1>Please add doctor's Office information</h1>
+</div>
+
+
+
+
+<div class="col-6">
+
+	<div class="card-body">
+		@if (ViewBag.office.Count == 1)
+		{
+			<form method="post" action="/Office/addoffice">
+				<div class="mb-3">
+					<input type="text" class="form-control" placeholder="Address" asp-for="Address" readonly>
+				</div>
+				<div class="mb-3">
+					<input type="Email" class="form-control" placeholder="Email" asp-for="Email" readonly>
+				</div>
+				<div class="mb-3">
+					<input type="text" class="form-control" placeholder="Name/office" asp-for="NameOffice" readonly>
+				</div>
+				<div class="mb-3">
+					<input type="number" class="form-control" placeholder="PhoneNumber" asp-for="PhoneNumber" readonly>
+				</div>
+				<p class="text-info">For add another ... please delete</p>
+				<div style="text-align: center;">
+					<button type="submit" class="btn btn-success">Add <span style="color:white;">+</span></button>
+				</div>
+			</form>
+		}
+		else
+		{
+			<form method="post" action="/Office/addoffice">
+				<div class="mb-3">
+					<input type="text" class="form-control" placeholder="Address" asp-for="Address">
+				</div>
+				<div class="mb-3">
+					<input type="Email" class="form-control" placeholder="Email" asp-for="Email">
+				</div>
+				<div class="mb-3">
+					<input type="text" class="form-control" placeholder="Name/office" asp-for="NameOffice">
+				</div>
+				<div class="mb-3">
+					<input type="number" class="form-control" placeholder="PhoneNumber" asp-for="PhoneNumber">
+				</div>
+
+				<div style="text-align: center;">
+					<button type="submit" class="btn btn-success">Add <span style="color:white;">+</span></button>
+				</div>
+			</form>
+		}
+
+	</div>
+</div>
+</div>
+
+
+
+<table class="table shadow">
+	<tr class="th">
+		<th>Number</th>
+		<th>Address</th>
+		<th>Email</th>
+		<th>Name/office</th>
+		<th>PhoneNumber</th>
+		<th>Processes</th>
+	</tr>
+
+	@if (ViewBag.office != null)
+	{
+		int r = 1;
+		foreach (var item in ViewBag.office)
+		{
+			<tr>
+				<td>@r</td>
+				<td>@item.Address</td>
+				<td>@item.Email</td>
+				<td>@item.NameOffice</td>
+				<td>@item.PhoneNumber</td>
+
+
+				<td>
+					<div class="row">
+						<div class="col-6">
+							<a class="btn m-1 btn-success col-4" href="/office/updateoffice/@item.Id" style="width:40px ;"><i
+							class="fas fa-pen"></i></a>
+						</div>
+						<div class="col-6">
+							<a class="btn m-1 btn-success col-4" href="/office/deloffice/@item.Id"
+						onclick="return confirm('Are you sure?')" style="width:40px ;"><i class="fas fa-trash"></i></a>
+						</div>
+
+					</div>
+				</td>
+			</tr>
+			r++;
+		}
+	}
+
+
+</table>

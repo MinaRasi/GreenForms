@@ -1,0 +1,65 @@
+@model VmRequestForm
+<style>
+
+
+    .card-body{
+         margin-right: -230px;
+         margin-left: 315px;
+} 
+
+</style>
+
+
+
+
+ 
+<div style="text-align: center;">
+    <h1>Please add your Emai Address</h1>
+</div>
+
+
+
+
+<div class="col-6">
+
+    <div class="card-body">
+      
+        <form action="/request/UpdateForm" method="post">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Full Name" asp-for="FullName">
+            </div>
+            <div class="mb-3">
+                <input type="Email" class="form-control" placeholder="EmailAddress"asp-for="Email">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="FormName "asp-for="FormName">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="FileName" asp-for="FileName">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label for="">Primary Language:</label>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="FileName" asp-for="PrimaryLang" readonly>
+                </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-6">
+                    <label for="">Translate To Language: </label>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" maxlength="10"  asp-for="Lang" readonly> 
+                </div>
+            </div>
+             <div class="col-12 mt-4" style="text-align:center">
+                    <button class="btn btn-success" style="width:120px" type="submit">Save</button>
+            </div>
+        </form>
+             
+        
+    </div>
+</div>
+</div>
