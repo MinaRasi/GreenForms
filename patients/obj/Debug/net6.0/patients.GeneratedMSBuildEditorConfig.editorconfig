@@ -8,121 +8,121 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = patients
 build_property.RootNamespace = patients
-build_property.ProjectDir = c:\Users\mina\OneDrive\Desktop\New folder (2)\project\patients\
+build_property.ProjectDir = c:\Users\Milky_Way\Desktop\GreenForms\patients\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = c:\Users\mina\OneDrive\Desktop\New folder (2)\project\patients
+build_property.MSBuildProjectDirectory = c:\Users\Milky_Way\Desktop\GreenForms\patients
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Doctor/adddoctor.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Doctor/adddoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXGFkZGRvY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Doctor/editdoctor.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Doctor/editdoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXGVkaXRkb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Doctor/viewdoctor.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Doctor/viewdoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXHZpZXdkb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Form/addforms.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Form/addforms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxhZGRmb3Jtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/addquestions.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/addquestions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRxdWVzdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/importforms.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/importforms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbXBvcnRmb3Jtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/Index.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/question1.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/question1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxxdWVzdGlvbjEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/question2.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/question2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxxdWVzdGlvbjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/question3.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/question3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxxdWVzdGlvbjMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/saveasto.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/saveasto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYXZlYXN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Home/viewquestions.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Home/viewquestions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3cXVlc3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Office/adddroffice.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Office/adddroffice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlXGFkZGRyb2ZmaWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Office/updateoffice.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Office/updateoffice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlXHVwZGF0ZW9mZmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Patient/newpatient.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Patient/newpatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxuZXdwYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Patient/PatientsInformation.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Patient/PatientsInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50c0luZm9ybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/QR/adddevices.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/QR/adddevices.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUVJcYWRkZGV2aWNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/QR/CreateQRCode.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/QR/CreateQRCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUVJcQ3JlYXRlUVJDb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Request/newformrequest.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Request/newformrequest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxuZXdmb3JtcmVxdWVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Request/newformrequeststep2.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Request/newformrequeststep2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdFxuZXdmb3JtcmVxdWVzdHN0ZXAyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Shared/Error.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/User/adduser.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/User/adduser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxhZGR1c2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/User/Update.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/User/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/User/viewuser.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/User/viewuser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx2aWV3dXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/_ViewImports.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/_ViewStart.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/mina/OneDrive/Desktop/New folder (2)/project/patients/Views/Shared/_Layout.cshtml]
+[c:/Users/Milky_Way/Desktop/GreenForms/patients/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5ao04fgvtr

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\patients\\patients.csproj": {}
+    "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\patients.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj": {
+    "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj",
+        "projectUniqueName": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\obj\\",
+        "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\Milky_Way\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milky_Way\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,17 +70,21 @@
         }
       }
     },
-    "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\Infrastrcture.csproj": {
+    "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\Infrastrcture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\Infrastrcture.csproj",
+        "projectUniqueName": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\Infrastrcture.csproj",
         "projectName": "Infrastrcture",
-        "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\Infrastrcture.csproj",
-        "packagesPath": "C:\\Users\\mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\obj\\",
+        "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\Infrastrcture.csproj",
+        "packagesPath": "C:\\Users\\Milky_Way\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milky_Way\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,14 +92,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj": {
-                "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj"
+              "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj": {
+                "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj"
               }
             }
           }
@@ -148,17 +158,21 @@
         }
       }
     },
-    "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\patients\\patients.csproj": {
+    "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\patients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\patients\\patients.csproj",
+        "projectUniqueName": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\patients.csproj",
         "projectName": "patients",
-        "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\patients\\patients.csproj",
-        "packagesPath": "C:\\Users\\mina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\patients\\obj\\",
+        "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\patients.csproj",
+        "packagesPath": "C:\\Users\\Milky_Way\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milky_Way\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,17 +180,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj": {
-                "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\core\\core.csproj"
+              "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj": {
+                "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\core\\core.csproj"
               },
-              "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\Infrastrcture.csproj": {
-                "projectPath": "C:\\Users\\mina\\OneDrive\\Desktop\\New folder (2)\\project\\Infrastrcture\\Infrastrcture.csproj"
+              "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\Infrastrcture.csproj": {
+                "projectPath": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\Infrastrcture\\Infrastrcture.csproj"
               }
             }
           }
