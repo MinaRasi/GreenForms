@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MPw/Xfw/17fr531ckQKpwCmY3OyZ9Moqo264eaw4p14=",
+  "Hash": "pXFxhCbBNeHBw3eLzAd501Gz8oqwgbvwVYAZ/p/1REc=",
   "Source": "patients",
   "BasePath": "_content/patients",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\japan.png"
+    },
+    {
+      "Identity": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\wwwroot\\img\\loggreenform.png",
+      "SourceId": "patients",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\wwwroot\\",
+      "BasePath": "_content/patients",
+      "RelativePath": "img/loggreenform.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\loggreenform.png"
     },
     {
       "Identity": "C:\\Users\\Milky_Way\\Desktop\\GreenForms\\patients\\wwwroot\\img\\logo.png",
